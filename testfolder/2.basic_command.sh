@@ -59,4 +59,18 @@ git checkout  브랜치명
 # 브랜치 목록조회
 git branch
 
+# origin 브랜치까지 포함하여 조회
+git branch --all
+
+# 브랜치 생성과 전환을 동시에
 git checkout -b 브랜치명
+# 브랜치 삭제
+git branch -d 브랜치명
+
+# git fetch : 원격에 변경사항을 local에 가져오되, 병합은 하지않은것.
+# 비교 : git pull origin main VS git fetch origin main
+
+
+# 원격에서 삭제된 브랜치 로컬에 반영(origin/feat1)
+git fetch --all --prune
+
