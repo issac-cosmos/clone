@@ -24,8 +24,21 @@ git log --oneline
 # log 내용 그래프 브런치로
 git log --graph
 
+# head 하단의 로그만 보이는것이 아니라, 모든 log 조회
+# head는 현재 checkout하고있는 commit가리킴.
+git log --all
+
 # 원격 저장소로 업로드
 git push origin 브랜치명
 
-# 충돌발생시 무시하고 강제 push
+# 충돌발생시 무시하고 강제 push, 로컬커밋 기준으로 원격 덮어쓰기
 git push origin main --force
+
+# pull은 원격의 커밋사항을 local로 다운로드(working directory까지 반영)
+git pull origin main
+
+# workingdirectory작업 및 staging area에서의 취소는 UI
+
+# 가장 최신의 커밋 취소
+git reset head~1
+git reset head^
