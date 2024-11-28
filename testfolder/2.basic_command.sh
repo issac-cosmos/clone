@@ -11,3 +11,6 @@ git commit -m "메세지 타이틀" -m "메세지 내용"
 # git commit만하고 엔터실행시 vi모드
 # 첫줄: 타이틀,두번째줄부터 contents
 git commit
+
+# add와 commit을 동시에
+git commit -am "커밋 메시지"
