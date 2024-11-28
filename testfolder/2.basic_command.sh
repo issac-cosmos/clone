@@ -39,6 +39,6 @@ git pull origin main
 
 # workingdirectory작업 및 staging area에서의 취소는 UI
 
-# 가장 최신의 커밋 취소
+# 가장 최신의 커밋 취소: working directory changes 까지로 reset
 git reset head~1
 git reset head^
