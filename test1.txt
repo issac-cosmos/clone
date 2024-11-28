@@ -5,8 +5,3 @@ hello world4
 hello world5
 hello world5
 hello world7
-아이고
-잘
-못
-수정해따
-그렇지 ?
