@@ -49,3 +49,10 @@ git push origin main
 # 현재 레파지토리에 한해서만 사용자 변경
 git config --local user.name "유저네임"
 git config --local user.email "유저이메일"
+
+
+
+# .gitignore 파일은 git 추적목록에서 제외대상 나열
+# 경로를 정확히 표시(경로는 root경로에서부터 시작)
+# ex)ignoretext.txt 또는 textfolder/ignoretest2.txt
+# 만약 이미 git에서 추적되고있는 파일은 아래와 같이 캐시 삭제후에 ignore처리
